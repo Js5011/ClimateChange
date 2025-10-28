@@ -1,1 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Climate Change Information</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #e6f2ff;
+      color: #003366;
+    }
+
+    header {
+      background-color: #007acc;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 0;
+    }
+
+    nav {
+      background-color: #66b3ff;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background-color: #cce6ff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    .content-section {
+      background-color: white;
+      margin: 20px auto;
+      max-width: 900px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+    }
+
+    .content-section h2 {
+      color: #0059b3;
+      border-bottom: 2px solid #66b3ff;
+      padding-bottom: 5px;
+    }
+
+    footer {
+      background-color: #007acc;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Understanding Climate Change</h1>
+  </header>
+
+  <nav>
+    <a href="#section1">What Is It?</a>
+    <a href="#section2">Causes</a>
+    <a href="#section3">Effects</a>
+    <a href="#section4">Solutions</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Learn. Understand. Act.</h1>
+    <p>Explore how climate change affects our planet and what we can do about it.</p>
+  </div>
+
+  <div class="content-section" id="section1">
+    <h2>What Is Climate Change?</h2>
+    <p>[Place your text here]</p>
+  </div>
+
+  <div class="content-section" id="section2">
+    <h2>Causes of Climate Change</h2>
+    <p>[Place your text here]</p>
+  </div>
+
+  <div class="content-section" id="section3">
+    <h2>Effects of Climate Change</h2>
+    <p>[Place your text here]</p>
+  </div>
+
+  <div class="content-section" id="section4">
+    <h2>Solutions & What You Can Do</h2>
+    <p>[Place your text here]</p>
+  </div>
+
+  <footer>
+    <p>© 2025 Climate Awareness Project | Designed by You</p>
+  </footer>
+</body>
+</html>
 
